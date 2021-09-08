@@ -5,3 +5,4 @@ from .config import www_path
 
 app = FastAPI()
 app.mount('/w', StaticFiles(directory=www_path()), name='static')
+#я здесь был но ниче не понял
